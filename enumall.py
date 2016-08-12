@@ -54,11 +54,9 @@ def run_recon(domains, bruteforce):
 		"recon/domains-hosts/hackertarget", 
 		"recon/domains-hosts/bing_domain_web", 
 		"recon/domains-hosts/google_site_web", 
-		"recon/domains-hosts/netcraft", 
-		"recon/netblocks-companies/whois_orgs", 
+		"recon/domains-hosts/netcraft",  
 		"recon/domains-hosts/shodan_hostname",
-		"recon/domains-hosts/google_site_api",
-		"recon/hosts-hosts/resolve" 
+		"recon/domains-hosts/google_site_api"
 	]
 	
 	for domain in domains:
